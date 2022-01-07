@@ -155,7 +155,7 @@ class EncapsulationDemo{
         System.out.println(t1.getemail());
         System.out.println(t1.getaddress());
 
-        Batch b1 = new Batch("batch1", 3, new Student[]{s1, s2}, t1);
+        Batch b1 = new Batch("batch1", 3, new Student[]{s1, s2, s3}, t1);
         System.out.println(b1.getname());
 
         }
