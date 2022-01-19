@@ -1,5 +1,5 @@
 package EncapsulationDemo;
-class Student {
+public class Student {
     String name;
     int age;
     String email;

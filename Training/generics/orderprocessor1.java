@@ -1,5 +1,7 @@
 package generics;
 
+import java.sql.Time;
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class orderprocessor1 {
@@ -38,12 +40,7 @@ public class orderprocessor1 {
                 }
             case 2:
             System.out.println("View all Orders");
-            Scanner modifedDate = new Scanner(System.in);
-            System.out.println("Order1:");
-            System.out.println("ModifiedDate");
-            System.out.printf("Modified Date: %s %n", modifedDate.toString());
-
+            
         }
-
     }
 }
