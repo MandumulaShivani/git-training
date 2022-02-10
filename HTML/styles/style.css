@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    background-color: rgb(61, 79, 179);
+    height: 80px;
+    width: 100%;
+}
+#lists{
+    font-size: 10px;
+    list-style: 20px;
+}
+#lists{
+    margin-right: 20px;
+    color: rgb(238, 242, 245);
+}
+#lists >li{
+    margin-right: 30px;
+    line-height: 80px;
+    margin: 10px;
+    display: inline-block;
+}
+#lists > li >
+a{
+    color: rgb(230, 230, 235);
+    font-size: 15px;
+    text-transform:capitalize;
+}
+.para{
+    margin-top: 20px;
+    text-align: left;
+}
+.para h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.left{
+    float: left;
+    width: 70%;
+}
+.right{
+    float: right;
+    width: 30%;
+    padding: 0;
+}
+.schemes{
+    background-color: #f9f9f9;
+}
+.schemes h2{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.schemes p{
+    font-weight: 30;
+    font-family: 14px;
+    margin: 20px;
+}
+
+.schemes p a{
+    color: #0262af;
+    text-decoration: none;
+}
+
+.schemes p button{
+    padding: 10px;
+    text-transform: uppercase;
+    float: right;
+}

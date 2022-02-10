@@ -1,0 +1,18 @@
+{
+  "name": "odd-or-even",
+  "version": "1.0.0",
+  "description": "A simple odd or even application using Js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "shivani",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.0.0"
+  }
+}
